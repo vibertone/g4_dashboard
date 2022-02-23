@@ -1,22 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './assets/css/app.css';
+
+import Header from './components/Header'
+import Users from './components/Users';
+import Flights from './components/Flights';
+import Tirausers from './components/Tirausers';
+import Tiraflights from './components/Tiraflights';
+// import SideBar from './components/Sidebar';
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <main>
+          <Header />
+          <Tiraflights />
+         
+          <Tirausers />
+          {/* <SideBar /> */}
+
+  
+      
+        </main>
+
       </header>
     </div>
   );
