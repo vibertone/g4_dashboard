@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import logo from '../assets/images/Logotransp.png';
 
 
 function Header () {
@@ -7,8 +8,8 @@ return (
        <div>
 
             <div className= "container-header">
-                <div className="header-box1">
-                    {/* <img src="/img/Logotransp.png" className="logo" */}
+                <div className="header-box1">  
+                <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 10 + 'rem'}} src={logo} alt=" Alt "/>
                    </div>    
                 <div className="header-box2">
                     <div>
