@@ -5,12 +5,13 @@ import logo from '../assets/images/Logotransp.png';
 function Header () {
 
 return (
+    <React.Fragment>
        <div>
 
             <div className= "container-header">
-                <div className="header-box1">  
+                {/* <div className="header-box1">  
                 <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 10 + 'rem'}} src={logo} alt=" Alt "/>
-                   </div>    
+                   </div>     */}
                 <div className="header-box2">
                     <div>
                             <i className="fas fa-plane"></i>
@@ -47,7 +48,9 @@ return (
         </div>
     
 
-);
-}
 
+
+</React.Fragment>
+)
+}
 export default Header;
