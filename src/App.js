@@ -1,8 +1,8 @@
 import React from 'react';
 
 import './assets/css/app.css';
-import ContenidoGeneral from './components/ContenidoGeneral';
-// import Header from '../components/Header'
+// import ContenidoGeneral from './components/ContenidoGeneral';
+// import Header from './components/Header'
 // import Tirausers from '../components/Tirausers';
 // import Tiraflights from '../components/Tiraflights';
 // import SmallCard from '../components/SmallCard';
@@ -20,7 +20,7 @@ function App() {
     <React.Fragment>    
         <div id="wrapper" className='container VB'>
         <SideBar />
-        <ContenidoGeneral />
+        {/* <ContenidoGeneral /> */}
 
        
 

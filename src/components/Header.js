@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/images/Logotransp.png';
+import { Link, Route, Routes } from "react-router-dom";
 
 
 function Header () {
@@ -15,7 +16,8 @@ return (
                 <div className="header-box2">
                     <div>
                             <i className="fas fa-plane"></i>
-                            <p> Vuelos </p>
+                            
+                            <a href="http://localhost:5000/" > <p> Vuelos </p>  </a>
                         </div>
                     <div>
                             <i className="fas fa-concierge-bell"></i>
@@ -46,7 +48,10 @@ return (
                                     
             </div>            
         </div>
-    
+    <Routes>
+<Route path="/TravelPoint" href='http://localhost:5000/' ></Route>
+
+    </Routes>
 
 
 

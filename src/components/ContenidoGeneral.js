@@ -20,7 +20,7 @@ function ContenidoGeneral(){
 
 				<div id="content-wrapper" className="d-flex flex-column">
 					<div id="content">
-						<Header />
+					<Header />
 						<div className="card-header py-3">
 									<h5 className="m-0 font-weight-bold text-gray-800">Hola, ¿Cómo estas hoy?</h5>
 								</div>
