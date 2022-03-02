@@ -1,27 +1,39 @@
+import { process_params } from "express/lib/router";
 import React from "react";
 import Flights from "./Flights";
 
 
-let destino = ["Barcelona", "Madrid","Valencia","Tokio"];
-let precio = [40000, 50000, 40000, 10000]
 
 function Tiraflights () {
     return (
-        <div className="col-lg-6 mb-4" >
-            <div className="card shadow mb-4" >
-									<h5 className="m-0 font-weight-bold text-gray-800"> Vuelos </h5>
+        <React.Fragment>
+
+
+
+
+
+
+         <div className="col-lg-6 mb-4" >
+
+         <div className="card-header py-3">
+									<h5 className="m-0 font-weight-bold text-gray-800"> Lo mas solicitado el último mes </h5>
                             </div>
-        {/* <div className="row" style={{paddingTop: 26}}> */}
+
+
+            {/* <div className="card shadow mb-4" >
+									<h5 className="m-0 font-weight-bold text-gray-800"> Lo más solicitado del último mes </h5>
+                            </div> */}
+         <div className="row" style={{paddingTop: 26}}> 
 
             <Flights vuelo="Barcelona" precio="$40.000" />
-            <Flights vuelo="Madrid" precio="$50.000"/>
-            <Flights vuelo="Valencia" precio="$40.000"/>
-            <Flights vuelo="Tokio" precio="$100.000"/>
-       
+            <Flights vuelo="Madrid" precio="$100.000" />
 
-        </div>
-        // </div>
+            </div>
+            </div>
+
+        
        
+       </React.Fragment>
     );
   }
 

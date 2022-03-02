@@ -11,6 +11,8 @@ import ContentRowTravel from './ContentRowTravel';
 import SideBar from './Sidebar';
 import DetalleVuelo from './DetalleVuelo';
 import UsersinDB from './UsersinDB';
+import FlightsinDB from './FlightsinDB';
+import Flightstable from './Flightstable';
 // import UsersinDB from './components/UsersinDB'
 
 
@@ -25,13 +27,19 @@ function ContenidoGeneral(){
 									<h5 className="m-0 font-weight-bold text-gray-800">Hola, ¿Cómo estas hoy?</h5>
 								</div>
 						<ContentRowTravel />
-						<DetalleVuelo />
+						<div className='row'>
+						<Flightstable />
 						<UsersinDB />
+						</div>
+						<div className='row'></div>
+						<DetalleVuelo />
 						<Tiraflights />
+						</div>
+
 						
 					</div>
 
-				</div>
+				
 
 
         </React.Fragment>

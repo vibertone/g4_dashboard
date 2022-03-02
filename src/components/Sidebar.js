@@ -9,6 +9,7 @@ import DetalleVuelo from "./DetalleVuelo";
 import { Link, Route, Routes } from "react-router-dom";
 import Tiraflights from "./Tiraflights";
 import Error404 from "./Error404";
+import Flightstable from "./Flightstable";
 
 
 function SideBar() {
@@ -17,13 +18,13 @@ function SideBar() {
             <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
                {/*<!-- Sidebar - Brand -->*/}
                      <Link className="sidebar-brand d-flex align-items-center justify-content-center" to="/">
-                        <div className="sidebar-brand-icon">
+                        {/* <div className="sidebar-brand-icon"> */}
                         <img className="w-100" src={logo} alt="TravelPoint"/>
-                        </div>
+                        {/* </div> */}
                     </Link>
 
                             {/*<!-- Divider -->*/}
-                            <hr className="sidebar-divider my-0"/>
+                            <hr className="sidebar-divider2"/>
 
                             {/*<!-- Nav Item - Dashboard -->*/}
                             <li className="nav-item active">
@@ -66,7 +67,7 @@ function SideBar() {
             <Route exact path='/' element = {<ContenidoGeneral />} /> 
             <Route exact path='/ContentRowTravel' element = {<ContentRowTravel />} />
             <Route exact path='/Usuarios' element = {<UsersinDB />} />   
-            <Route exact path='/Vuelos' element = {<Tiraflights />} /> 
+            <Route exact path='/Vuelos' element = {<Flightstable />} /> 
             <Route exact path='/*' element = {<Error404 />} />     
                 </Routes>        
                 

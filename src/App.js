@@ -18,13 +18,13 @@ import SideBar from './components/Sidebar';
 function App() {
   return (
     <React.Fragment>    
-        <div id="wrapper" className='container VB'>
+        <div id="wrapper">
         <SideBar />
         {/* <ContenidoGeneral /> */}
 
        
 
-<ul className= "navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">...</ul>
+{/* <ul className= "navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">...</ul> */}
 
         </div> 
     </React.Fragment>

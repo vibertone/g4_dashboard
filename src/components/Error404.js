@@ -11,8 +11,8 @@ function Error404 () {
         
             <div className="container w-100"> <h5> Upps! Te fuiste a cualquier parte!</h5>
 
-            <img className="w-100" src = {imagen} alt="error404" />  Volver 
-            <Link to={"/"}> -> </Link>
+            <img className="w-100" src = {imagen} alt="error404" />   
+            <Link to={"/"}> Volver  </Link>
 
             </div>
             <Routes>

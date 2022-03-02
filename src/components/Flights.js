@@ -11,9 +11,9 @@ function Flights (props) {
         
         <div className="">
             
-                <div className="table-primary">
-                    <table className="table-info" id="dataTable" width="100%" cellSpacing="0">
-                      <thead>
+                <div className="table-responsive">
+                    <table className="table table-striped table-hover"  width="100%" >
+                      <thead className="table-primary">
                           <tr>
                             <th scope="col">Vuelo</th>
                             <th scope="col">Precio</th>
@@ -21,9 +21,9 @@ function Flights (props) {
                             <th scope="col">Duración</th>
                           </tr>
 
-                    </thead>
+                     </thead>
                           <tbody>
-                              <tr className="table-primary">
+                              <tr>
 
                                 <td>{props.vuelo} </td>
                                 <td>{props.precio} </td>
