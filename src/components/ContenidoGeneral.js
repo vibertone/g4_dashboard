@@ -29,10 +29,12 @@ function ContenidoGeneral(){
 						<ContentRowTravel />
 						<div className='row'>
 						<Flightstable />
-						<UsersinDB />
-						</div>
-						<div className='row'></div>
+						
 						<DetalleVuelo />
+						</div>
+						<div className='row'>
+						
+						<UsersinDB />
 						<Tiraflights />
 						</div>
 
@@ -40,7 +42,7 @@ function ContenidoGeneral(){
 					</div>
 
 				
-
+					</div>
 
         </React.Fragment>
     )

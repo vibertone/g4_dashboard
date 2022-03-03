@@ -1,7 +1,7 @@
 import React from "react";
 import ico_fem from '../assets/images/mujer_icono.svg'
 
-function Users (props){
+function Destinies (props){
 
 
   
@@ -12,7 +12,10 @@ function Users (props){
             <div className= "card text-white bg-dark shadow" >
                 <div className="card-body">
                   {props.name}
-
+                  <p className="VB_Xsmall">
+                    {props.id} </p>
+                    <p className="VB_Xsmall">
+                       {props.last_name} </p>
                        <p className="VB_Xsmall">
                     {props.email}</p>
                     
@@ -27,4 +30,4 @@ function Users (props){
 </React.Fragment>
 );
 }
-export default Users;
+export default Destinies;
