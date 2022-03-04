@@ -27,8 +27,8 @@ function Flights (props) {
 
                                 <td>{props.vuelo} </td>
                                 <td>{props.precio} </td>
-                                <td> 0453# </td>
-                                <td> 18hs </td>
+                                <td> {props.nvuelo} </td>
+                                <td> {props.duration} </td>
                          
 
 

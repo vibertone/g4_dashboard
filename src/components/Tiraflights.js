@@ -25,8 +25,8 @@ function Tiraflights () {
                             </div> */}
          <div className="row" style={{paddingTop: 26}}> 
 
-            <Flights vuelo="Barcelona" precio="$40.000" />
-            <Flights vuelo="Madrid" precio="$100.000" />
+            <Flights vuelo="Barcelona" precio="$151.529" nvuelo="AGG5846" duration="21:09 hs" />
+            <Flights vuelo="Madrid" precio="$150.283" nvuelo="GOG5599" duration="13:35 hs" />
 
             </div>
             </div>
